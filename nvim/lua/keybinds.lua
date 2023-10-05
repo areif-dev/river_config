@@ -29,6 +29,7 @@ local keybinds = {
     {"<C-[>", ":tabNext<CR>"},
     {"<C-]>", ":tabnext<CR>"},
     {"<C-e>", ":tabnew<CR>:terminal<CR>A"},
+    {"<A-f>", ":CocCommand editor.action.formatDocument<CR>"}
   }
 }
 
