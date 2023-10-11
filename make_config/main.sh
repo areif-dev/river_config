@@ -3,6 +3,7 @@
 source ./vars.sh
 
 $config_dir/make_config/packages.sh
+$config_dir/make_config/make-rofi-config.sh
 
 systemctl enable sshd
 systemctl start sshd
