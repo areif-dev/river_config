@@ -7,6 +7,7 @@ coc_extns.extensions = {
   "coc-htmldjango",
   "coc-tsserver",
   "coc-json",
+  "coc-pyright",
 }
 
 -- Install or uninstall extensions as necessary such that the list of installed 
