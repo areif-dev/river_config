@@ -1,3 +1,5 @@
+#!/bin/bash
+
 MM_PER_INCH=25.4
 
 # Select array of active display adapters (eDP-1, DP-1, HDMI-1, etc)
