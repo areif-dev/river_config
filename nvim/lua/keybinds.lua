@@ -16,6 +16,7 @@ local keybinds = {
     {"{;<CR>}", "{<CR>};<ESC>O"},
     {"<C-s>", "<ESC>:w<CR>"},
     {"<C-t>", "<ESC>:tabnew<CR>"},
+    {"<C-w>", "<ESC>:q<CR>"},
   },
   n = {
     {"<C-l>", ":wincmd l<CR>"},
@@ -28,8 +29,13 @@ local keybinds = {
     {"<C-t>", ":tabnew<CR>"},
     {"(", ":tabNext<CR>"},
     {")", ":tabnext<CR>"},
-    {"<C-e>", ":tabnew<CR>:terminal<CR>A"},
+    {"<C-e>", ":30sp<CR>:wincmd j<CR>:term<CR>A"},
     {"<A-f>", ":CocCommand editor.action.formatDocument<CR>"}
+  },
+  t = {
+    {"<ESC>", "<C-\\><C-n>"},
+    {"<C-w>", "<C-\\><C-n>:q<CR>"},
+    {"<C-e>", "<C-\\><C-n>:q<CR>"},
   }
 }
 
