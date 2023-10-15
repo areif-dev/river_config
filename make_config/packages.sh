@@ -10,6 +10,7 @@ std_packages=(
     neovim
     networkmanager
     openssh
+    otf-cascadia-code
     pavucontrol
     river
     swayidle
