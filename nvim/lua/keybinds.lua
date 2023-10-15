@@ -26,8 +26,8 @@ local keybinds = {
     {"<C-s>", ":w<CR>"},
     {"<C-f>", ":Neotree toggle<CR>"},
     {"<C-t>", ":tabnew<CR>"},
-    {"<C-[>", ":tabNext<CR>"},
-    {"<C-]>", ":tabnext<CR>"},
+    {"(", ":tabNext<CR>"},
+    {")", ":tabnext<CR>"},
     {"<C-e>", ":tabnew<CR>:terminal<CR>A"},
     {"<A-f>", ":CocCommand editor.action.formatDocument<CR>"}
   }
