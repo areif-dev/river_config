@@ -29,7 +29,7 @@ local keybinds = {
     {"<C-t>", ":tabnew<CR>"},
     {"(", ":tabNext<CR>"},
     {")", ":tabnext<CR>"},
-    {"<C-e>", ":30sp<CR>:wincmd j<CR>:term<CR>A"},
+    {"<C-e>", ":sp<CR>:wincmd j<CR>:term<CR>A"},
     {"<A-f>", ":CocCommand editor.action.formatDocument<CR>"}
   },
   t = {
