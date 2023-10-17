@@ -15,13 +15,9 @@ export RIVER_DIR=$HOME/.config/river
 if [ "$HOSTNAME" = "desktop" ]; then
   MOD="Super"
   MOD2="Alt"
-
-  display_scaling=1
 elif [ "$HOSTNAME" = "laptop" ]; then 
   MOD="Alt"
   MOD2="Super"
-
-  display_scaling=2
 fi
 
 display_adapters=$(wlr-randr | awk '/^[^ ]/ {print $1}')
