@@ -4,6 +4,7 @@ std_packages=(
     alacritty
     base-devel
     discord 
+    dunst
     firefox
     grim
     libreoffice-fresh
