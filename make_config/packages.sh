@@ -14,6 +14,7 @@ std_packages=(
     otf-cascadia-code
     pavucontrol
     river
+    swaybg
     swayidle
     swaylock
     torbrowser-launcher 
