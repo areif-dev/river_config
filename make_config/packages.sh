@@ -2,6 +2,8 @@
 
 std_packages=(
     alacritty
+    blueman
+    bluez
     base-devel
     discord 
     dunst
