@@ -27,8 +27,6 @@ local packages = {
     end,
   },
 
-  {"sbdchd/neoformat"},
-
   {
     "rust-lang/rust.vim",
     ft = {"rust"},

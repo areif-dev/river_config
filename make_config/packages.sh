@@ -2,8 +2,11 @@
 
 std_packages=(
     alacritty
+    blueman
+    bluez
     base-devel
     discord 
+    dunst
     firefox
     grim
     libreoffice-fresh
@@ -13,6 +16,7 @@ std_packages=(
     otf-cascadia-code
     pavucontrol
     river
+    swaybg
     swayidle
     swaylock
     torbrowser-launcher 

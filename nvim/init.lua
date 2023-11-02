@@ -1,5 +1,6 @@
-require 'keybinds'
-require 'plugins'
+require "keybinds"
+require "plugins"
+require "languages_conf"
 
 local set = vim.opt
 

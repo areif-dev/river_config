@@ -2,12 +2,13 @@ local coc_extns = {}
 
 coc_extns.extn_path = vim.fn.stdpath("config") .. "/../coc/extensions/node_modules/"
 coc_extns.extensions = {
-  "coc-rust-analyzer", 
   "coc-html", 
   "coc-htmldjango",
-  "coc-tsserver",
   "coc-json",
+  "coc-prettier",
   "coc-pyright",
+  "coc-rust-analyzer", 
+  "coc-tsserver",
 }
 
 -- Install or uninstall extensions as necessary such that the list of installed 
