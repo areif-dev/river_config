@@ -108,7 +108,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias la="ls -a"
 alias ll="ls -lah --color=auto"
-alias grep="rg"
 alias codium-wayland="codium --enable-features=UseOzonePlatform --ozone-platform=wayland"
 
 export NVM_DIR="$HOME/.nvm"
