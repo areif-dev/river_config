@@ -156,6 +156,8 @@ exec waybar &
 
 exec dunst &
 
+exec syncthing & 
+
 # Start the layout generator
 riverctl default-layout bsp-layout
 exec river-bsp-layout -i 10 -o 10 &
