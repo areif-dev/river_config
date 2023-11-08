@@ -4,7 +4,7 @@ export PATH=$HOME/bin:$HOME/.local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
-export LEDGER_FILE="$HOME/accounts/2023-06.journal"
+export LEDGER_FILE="$HOME/Sync/2023-06.journal"
 
 DISABLE_AUTO_UPDATE=true
 
