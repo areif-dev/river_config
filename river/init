@@ -12,10 +12,10 @@
 
 export RIVER_DIR=$HOME/.config/river
 
-if [ "$HOSTNAME" = "desktop" ]; then
-  MOD="Super"
-  MOD2="Alt"
-elif [ "$HOSTNAME" = "laptop" ]; then 
+MOD="Super"
+MOD2="Alt"
+
+if [ "$HOSTNAME" = "laptop" ]; then 
   MOD="Alt"
   MOD2="Super"
 fi
