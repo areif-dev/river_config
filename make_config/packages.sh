@@ -4,34 +4,28 @@ std_packages=(
     alacritty
     blueman
     bluez
-    base-devel
-    discord 
     dunst
-    firefox
+    MozillaFirefox
+    MozillaFirefox-branding-upstream
     grim
-    libreoffice-fresh
+    libopenssl-devel
+    libreoffice
     neovim
-    networkmanager
+    NetworkManager
+    NetworkManager-tui
     openssh
-    otf-cascadia-code
+    openssl
+    patterns-devel-base-devel_basis  # This is a pattern 
     pavucontrol
     river
+    rofi-wayland
+    rustup
+    saja-cascadia-code-fonts
     swaybg
     swayidle
     swaylock
     torbrowser-launcher 
     waybar
-    xorg-xwayland
+    xwayland
     zsh
 )
-
-aur_packages=(
-    freetube-bin 
-    rofi-lbonn-wayland
-)
-
-# Enable 5 parallel downloads at a time in pacman 
-sed -i 's/#ParallelDownloads = 5/ParallelDownloads = 5/' /etc/pacman.conf
-
-pacman -Syu
-pacman -S $std_packages
