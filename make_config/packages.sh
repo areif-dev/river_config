@@ -8,6 +8,7 @@ std_packages=(
     MozillaFirefox
     MozillaFirefox-branding-upstream
     grim
+    KeePassXC
     libopenssl-devel
     libreoffice
     neovim
