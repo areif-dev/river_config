@@ -30,3 +30,8 @@ std_packages=(
     xwayland
     zsh
 )
+
+dnf makecache 
+dnf distro-sync
+
+dnf install $std_packages

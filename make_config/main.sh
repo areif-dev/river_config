@@ -2,6 +2,7 @@
 
 source ./vars.sh
 
+$config_dir/make_config/zypp-to-dnf.sh
 $config_dir/make_config/packages.sh
 $config_dir/make_config/make-rofi-config.sh
 
